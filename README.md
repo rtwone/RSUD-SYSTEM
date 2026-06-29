@@ -12,6 +12,11 @@ Aplikasi desktop berbasis **C# Windows Forms** yang dirancang untuk membantu pro
 ![Database](https://img.shields.io/badge/Database-MySQL-orange)
 ![IDE](https://img.shields.io/badge/IDE-Visual_Studio-5C2D91)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/rtwone/RSUD-SYSTEM)
+![GitHub repo size](https://img.shields.io/github/repo-size/rtwone/RSUD-SYSTEM)
+![GitHub stars](https://img.shields.io/github/stars/rtwone/RSUD-SYSTEM?style=social)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 </div>
 
 ---
@@ -352,11 +357,9 @@ Build project, kemudian jalankan menggunakan Visual Studio.
 
 # 📄 Lisensi
 
-Project ini menggunakan **Custom License**.
+Project ini dilisensikan di bawah **MIT License**.
 
-Source code dipublikasikan untuk tujuan pembelajaran dan portofolio. Penggunaan komersial, re-upload, maupun pengklaiman sebagai karya sendiri **tidak diperbolehkan** tanpa izin tertulis dari pemilik repository.
-
-Silakan baca file **LICENSE.md** untuk informasi lebih lanjut.
+Silakan lihat file [LICENSE](LICENSE.md) untuk informasi lebih lanjut.
 
 <div align="center">
 
