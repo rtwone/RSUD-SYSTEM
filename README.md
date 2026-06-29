@@ -349,6 +349,14 @@ Build project, kemudian jalankan menggunakan Visual Studio.
 
 ---
 
+# 📄 Lisensi
+
+Project ini menggunakan **Custom License**.
+
+Source code dipublikasikan untuk tujuan pembelajaran dan portofolio. Penggunaan komersial, re-upload, maupun pengklaiman sebagai karya sendiri **tidak diperbolehkan** tanpa izin tertulis dari pemilik repository.
+
+Silakan baca file **LICENSE.md** untuk informasi lebih lanjut.
+
 <div align="center">
 
 ### ⭐ Jangan lupa berikan Star jika repository ini bermanfaat!
