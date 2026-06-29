@@ -1,53 +1,21 @@
-# Custom License
+MIT License
 
 Copyright (c) 2026 Irfan Hariyanto
 
-Semua hak cipta atas source code dan dokumentasi dalam repository ini dimiliki oleh Irfan Hariyanto.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Diizinkan
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Anda diperbolehkan untuk:
-
-- Melihat dan mempelajari source code.
-- Menggunakan source code sebagai referensi pembelajaran.
-- Melakukan modifikasi untuk penggunaan pribadi (non-komersial).
-- Menggunakan sebagian kecil kode sebagai referensi dengan tetap mencantumkan atribusi kepada pemilik repository.
-
-## Tidak Diizinkan
-
-Tanpa izin tertulis dari pemilik repository, Anda **tidak diperbolehkan** untuk:
-
-- Mengunggah ulang (re-upload) seluruh atau sebagian repository ke platform mana pun.
-- Mengklaim source code sebagai hasil karya sendiri.
-- Menjual, menyewakan, atau mendistribusikan source code untuk tujuan komersial.
-- Menghapus atau mengubah informasi hak cipta yang terdapat pada project ini.
-- Menggunakan project ini sebagai tugas, skripsi, atau karya akademik tanpa memberikan atribusi kepada pemilik.
-
-## Kontribusi
-
-Pull Request, saran, dan laporan bug sangat diterima. Dengan mengirimkan kontribusi, Anda menyatakan bahwa kontribusi tersebut dapat digunakan dalam project ini.
-
-## Penafian
-
-Project ini disediakan **"apa adanya" (as is)** tanpa jaminan dalam bentuk apa pun. Pemilik repository tidak bertanggung jawab atas kerusakan, kehilangan data, atau konsekuensi lain yang timbul dari penggunaan project ini.
-
-## Permintaan Izin
-
-Apabila Anda ingin:
-
-- Menggunakan project untuk kebutuhan komersial,
-- Menggunakan sebagian besar source code,
-- Mengembangkan project ini sebagai dasar aplikasi lain,
-- Menggunakan project untuk publikasi,
-
-silakan hubungi pemilik repository terlebih dahulu.
-
-## Kontak
-
-**Irfan Hariyanto**
-
-GitHub: https://github.com/rtwone
-
----
-
-© 2026 Irfan Hariyanto. Seluruh hak cipta dilindungi.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
