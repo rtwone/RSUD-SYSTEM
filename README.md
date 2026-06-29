@@ -2,42 +2,40 @@
 
 # 🏥 RSUD-SYSTEM
 
-### Hospital Information System (HIS)
+### Sistem Informasi Rumah Sakit (RSUD)
 
-A desktop-based Hospital Information System developed using **C# Windows Forms** and **MySQL** to simplify hospital administration processes, including patient registration, medical records, inpatient management, payments, and reporting.
+Aplikasi desktop berbasis **C# Windows Forms** yang dirancang untuk membantu proses administrasi rumah sakit, mulai dari pendaftaran pasien, pengelolaan data master, rekam medis, rawat inap, pembayaran, hingga pembuatan laporan.
 
 ![C#](https://img.shields.io/badge/C%23-Windows%20Forms-blue)
 ![Framework](https://img.shields.io/badge/.NET_Framework-4.x-purple)
-![Database](https://img.shields.io/badge/MySQL-Database-orange)
-![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-blueviolet)
+![Database](https://img.shields.io/badge/Database-MySQL-orange)
+![IDE](https://img.shields.io/badge/IDE-Visual%20Studio-blueviolet)
 
 </div>
 
 ---
 
-# 📖 About
+# 📖 Tentang Project
 
-RSUD-SYSTEM is a desktop application designed to assist hospital staff in managing patient administration efficiently.
+**RSUD-SYSTEM** merupakan aplikasi Sistem Informasi Rumah Sakit berbasis desktop yang dikembangkan menggunakan **C# Windows Forms** dengan **MySQL** sebagai basis data.
 
-The application is built using **Windows Forms (.NET Framework)** and uses **MySQL** as its database management system.
+Aplikasi ini dibuat untuk membantu pengelolaan administrasi rumah sakit agar proses pelayanan pasien menjadi lebih terstruktur, cepat, dan efisien.
 
 ---
 
-# ✨ Features
+# ✨ Fitur Utama
 
-## 🔐 Authentication
+## 🔐 Login
 
-- Login System
-- User Session
-- Greeting Based on Time
+- Sistem Login Admin
+- Manajemen Sesi Pengguna
+- Sapaan otomatis berdasarkan waktu (Pagi, Siang, Sore, Malam)
 
 ---
 
 ## 📊 Dashboard
 
-- Main Navigation
-- Quick Access Menu
-- User Information
+Menampilkan halaman utama aplikasi sebagai pusat navigasi menuju seluruh menu yang tersedia.
 
 📷
 
@@ -47,14 +45,16 @@ The application is built using **Windows Forms (.NET Framework)** and uses **MyS
 
 ## 🗂 Data Master
 
-Manage hospital master data such as:
+Mengelola seluruh data utama yang digunakan dalam sistem.
 
-- Patients
-- Doctors
-- Rooms
-- Medicines
-- Medical Staff
-- Other Master Data
+**Fitur**
+
+- Data Pasien
+- Data Dokter
+- Data Kamar
+- Data Obat
+- Data Petugas
+- Data lainnya
 
 📷
 
@@ -62,12 +62,16 @@ Manage hospital master data such as:
 
 ---
 
-## 📝 Patient Registration
+## 📝 Pendaftaran
 
-- Register New Patient
-- Outpatient Registration
-- Search Patient
-- Registration History
+Digunakan untuk melakukan proses registrasi pasien.
+
+**Fitur**
+
+- Registrasi Pasien
+- Pendaftaran Rawat Jalan
+- Pendaftaran Rawat Inap
+- Pencarian Data Pasien
 
 📷
 
@@ -75,12 +79,16 @@ Manage hospital master data such as:
 
 ---
 
-## 🩺 Diagnosis
+## 🩺 Diagnosa
 
-- Patient Examination
-- Diagnosis Input
-- Medical Treatment
-- Prescription
+Digunakan oleh petugas atau dokter untuk melakukan pencatatan hasil pemeriksaan pasien.
+
+**Fitur**
+
+- Input Diagnosa
+- Pemeriksaan Pasien
+- Tindakan Medis
+- Resep Obat
 
 📷
 
@@ -88,12 +96,16 @@ Manage hospital master data such as:
 
 ---
 
-## 📄 Medical Record
+## 📄 Rekam Medis
 
-- Patient History
-- Diagnosis History
-- Treatment History
-- Medical Record Management
+Menyimpan seluruh riwayat pemeriksaan pasien.
+
+**Fitur**
+
+- Riwayat Pemeriksaan
+- Riwayat Diagnosa
+- Riwayat Pengobatan
+- Data Rekam Medis
 
 📷
 
@@ -101,12 +113,16 @@ Manage hospital master data such as:
 
 ---
 
-## 🛏 Inpatient
+## 🛏 Rawat Inap
 
-- Room Selection
-- Room Availability
-- Check-In
-- Check-Out
+Mengelola proses rawat inap pasien.
+
+**Fitur**
+
+- Pemilihan Kamar
+- Informasi Ketersediaan Kamar
+- Check In Pasien
+- Check Out Pasien
 
 📷
 
@@ -114,11 +130,15 @@ Manage hospital master data such as:
 
 ---
 
-## 💳 Payment
+## 💳 Pembayaran
 
-- Billing
-- Payment Processing
-- Receipt
+Mengelola proses transaksi pembayaran pasien.
+
+**Fitur**
+
+- Perhitungan Tagihan
+- Pembayaran
+- Cetak Kwitansi
 
 📷
 
@@ -126,14 +146,16 @@ Manage hospital master data such as:
 
 ---
 
-## 📈 Reports
+## 📈 Laporan
 
-Generate reports including:
+Menyediakan berbagai laporan yang dapat dicetak.
 
-- Patient Report
-- Medical Record Report
-- Payment Report
-- Registration Report
+**Fitur**
+
+- Laporan Data Pasien
+- Laporan Rekam Medis
+- Laporan Pembayaran
+- Laporan Pendaftaran
 
 📷
 
@@ -141,36 +163,36 @@ Generate reports including:
 
 ---
 
-# 🖼 Application Preview
+# 🖼 Preview Aplikasi
 
 | Menu | Screenshot |
 |------|------------|
 | Dashboard | `preview/dashboard.png` |
 | Data Master | `preview/data-master.png` |
-| Registration | `preview/pendaftaran.png` |
-| Diagnosis | `preview/diagnosa.png` |
-| Medical Record | `preview/rekam-medis.png` |
-| Inpatient | `preview/rawat-inap.png` |
-| Payment | `preview/pembayaran.png` |
-| Reports | `preview/laporan.png` |
+| Pendaftaran | `preview/pendaftaran.png` |
+| Diagnosa | `preview/diagnosa.png` |
+| Rekam Medis | `preview/rekam-medis.png` |
+| Rawat Inap | `preview/rawat-inap.png` |
+| Pembayaran | `preview/pembayaran.png` |
+| Laporan | `preview/laporan.png` |
 
 ---
 
-# 🛠 Technology Stack
+# 🛠 Teknologi yang Digunakan
 
-| Technology | Description |
-|------------|-------------|
-| Language | C# |
+| Teknologi | Keterangan |
+|-----------|------------|
+| Bahasa Pemrograman | C# |
 | Framework | Windows Forms (.NET Framework) |
-| IDE | Visual Studio |
 | Database | MySQL |
-| Connector | MySql.Data 6.7.9 |
+| IDE | Microsoft Visual Studio |
+| Library | MySql.Data 6.7.9 |
 
 ---
 
-# 📂 Project Structure
+# 📂 Struktur Project
 
-```
+```text
 RSUD-SYSTEM
 │
 ├── RSUD-SYSTEM.sln
@@ -189,7 +211,7 @@ RSUD-SYSTEM
 │   ├── FormTambahEdit
 │   ├── FormPopupDetailKunjungan
 │   ├── pilihKamar
-│   └── Koneksi.cs
+│   └── koneksi.cs
 │
 ├── packages/
 └── README.md
@@ -197,47 +219,53 @@ RSUD-SYSTEM
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Cara Menjalankan
 
-### Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/rtwone/RSUD-SYSTEM.git
 ```
 
-### Open Project
+### 2. Buka Project
 
-Open
+Buka file berikut menggunakan **Microsoft Visual Studio**.
 
 ```
 RSUD-SYSTEM.sln
 ```
 
-using **Visual Studio**.
+### 3. Restore Package
 
-### Database
+Apabila diperlukan, lakukan Restore NuGet Package melalui Visual Studio.
 
-Import your MySQL database, then configure the database connection inside:
+### 4. Konfigurasi Database
+
+Import database MySQL yang digunakan, kemudian sesuaikan konfigurasi koneksi database pada file:
 
 ```
-Koneksi.cs
+koneksi.cs
 ```
 
-or
+atau
 
 ```
 App.config
 ```
 
-depending on your local setup.
+sesuai dengan konfigurasi project.
+
+### 5. Jalankan Aplikasi
+
+Build project, kemudian jalankan aplikasi menggunakan Visual Studio.
 
 ---
 
-# 📌 Notes
+# 📌 Catatan
 
-- Developed for educational purposes.
-- Built with Windows Forms (.NET Framework).
-- Requires MySQL Server.
+- Project ini dibuat sebagai media pembelajaran dan pengembangan aplikasi desktop menggunakan C# Windows Forms.
+- Database yang digunakan adalah MySQL.
+- Disarankan menggunakan Microsoft Visual Studio agar seluruh dependensi dapat berjalan dengan baik.
 
 ---
 
@@ -245,14 +273,14 @@ depending on your local setup.
 
 **Irfan Hariyanto**
 
-GitHub
-
-https://github.com/rtwone
+GitHub: https://github.com/rtwone
 
 ---
 
 <div align="center">
 
-⭐ If you find this project useful, don't forget to leave a Star!
+⭐ Jika repository ini bermanfaat, jangan lupa berikan **Star** sebagai bentuk apresiasi.
+
+Terima kasih telah berkunjung.
 
 </div>
