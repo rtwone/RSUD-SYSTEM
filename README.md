@@ -1,90 +1,113 @@
+<div align="center">
+
 # 🏥 RSUD-SYSTEM
 
-Sistem Informasi Rumah Sakit (RSUD) berbasis **Windows Forms (C# .NET Framework)** yang dirancang untuk membantu proses administrasi rumah sakit, mulai dari pendaftaran pasien, pengelolaan data master, rekam medis, hingga pembayaran.
+### Sistem Informasi Rumah Sakit (RSUD)
 
-> 🚧 Project ini dibuat sebagai media pembelajaran dan pengembangan aplikasi desktop menggunakan C#, Windows Forms, dan MySQL.
+Aplikasi desktop berbasis **C# Windows Forms** untuk membantu pengelolaan administrasi rumah sakit, mulai dari data master, pendaftaran pasien, rekam medis, hingga pembayaran.
 
----
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Language](https://img.shields.io/badge/Language-C%23-purple)
+![Framework](https://img.shields.io/badge/.NET-Windows%20Forms-blueviolet)
+![Database](https://img.shields.io/badge/Database-MySQL-orange)
 
-## ✨ Tampilan Aplikasi
-
-### 🏠 Dashboard
-
-<img src="preview/dashboard.png" width="900"/>
-
-Dashboard merupakan halaman utama aplikasi yang menampilkan menu navigasi menuju seluruh modul sistem.
+</div>
 
 ---
 
-## 📋 Menu & Preview
+# 📷 Tampilan Aplikasi
 
-### 📊 Dashboard
+## Menu Utama
 
-<img src="preview/dashboard.png" width="900"/>
+<p align="center">
+<img src="preview/dashboard.png" width="900">
+</p>
+
+---
+
+# ✨ Fitur
+
+| Menu | Deskripsi |
+|------|-----------|
+| 📊 Dashboard | Halaman utama aplikasi |
+| 🗂️ Data Master | Mengelola seluruh data master rumah sakit |
+| 📝 Pendaftaran | Registrasi pasien |
+| 🩺 Diagnosa | Input hasil pemeriksaan |
+| 📄 Rekam Medis | Riwayat kesehatan pasien |
+| 🛏️ Rawat Inap | Manajemen rawat inap |
+| 💳 Pembayaran | Transaksi pembayaran pasien |
+| 📈 Laporan | Cetak berbagai laporan |
+
+---
+
+# 🖼 Preview Setiap Menu
+
+## 📊 Dashboard
+
+<img src="preview/dashboard.png">
+
+---
+
+## 🗂️ Data Master
+
+<img src="preview/data-master.png">
 
 **Fitur**
-- Statistik data
-- Informasi singkat
-- Ringkasan aktivitas
 
----
-
-### 🗂️ Data Master
-
-<img src="preview/data-master.png" width="900"/>
-
-**Fitur**
-- Data Dokter
 - Data Pasien
+- Data Dokter
 - Data Poli
 - Data Obat
 - Data Kamar
 - Data Petugas
-- *(Tambahkan fitur lainnya)*
 
 ---
 
-### 📝 Pendaftaran
+## 📝 Pendaftaran
 
-<img src="preview/pendaftaran.png" width="900"/>
+<img src="preview/pendaftaran.png">
 
 **Fitur**
+
 - Registrasi Pasien
-- Pendaftaran Rawat Jalan
-- Pendaftaran Rawat Inap
+- Data Pendaftaran
+- Pencarian Pasien
 - Cetak Bukti Pendaftaran
 
 ---
 
-### 🩺 Diagnosa
+## 🩺 Diagnosa
 
-<img src="preview/diagnosa.png" width="900"/>
+<img src="preview/diagnosa.png">
 
 **Fitur**
-- Input Diagnosa
+
 - Pemeriksaan Pasien
-- Tindakan Medis
+- Input Diagnosa
 - Resep Obat
+- Tindakan Medis
 
 ---
 
-### 📄 Rekam Medis
+## 📄 Rekam Medis
 
-<img src="preview/rekam-medis.png" width="900"/>
+<img src="preview/rekam-medis.png">
 
 **Fitur**
-- Riwayat Pasien
-- Hasil Pemeriksaan
+
+- Riwayat Pemeriksaan
 - Riwayat Diagnosa
-- Riwayat Pengobatan
+- Riwayat Obat
+- Riwayat Rawat Inap
 
 ---
 
-### 🛏️ Rawat Inap
+## 🛏️ Rawat Inap
 
-<img src="preview/rawat-inap.png" width="900"/>
+<img src="preview/rawat-inap.png">
 
 **Fitur**
+
 - Data Kamar
 - Check In
 - Check Out
@@ -92,65 +115,41 @@ Dashboard merupakan halaman utama aplikasi yang menampilkan menu navigasi menuju
 
 ---
 
-### 💳 Pembayaran
+## 💳 Pembayaran
 
-<img src="preview/pembayaran.png" width="900"/>
+<img src="preview/pembayaran.png">
 
 **Fitur**
+
 - Tagihan Pasien
 - Pembayaran
 - Cetak Kwitansi
 
 ---
 
-### 📈 Laporan
+## 📈 Laporan
 
-<img src="preview/laporan.png" width="900"/>
+<img src="preview/laporan.png">
 
 **Fitur**
+
 - Laporan Pasien
 - Laporan Dokter
-- Laporan Pembayaran
 - Laporan Rekam Medis
-- *(Tambahkan laporan lainnya)*
+- Laporan Pembayaran
 
 ---
 
-## ⚙️ Teknologi
+# 🛠️ Teknologi
 
 - C#
 - Windows Forms (.NET Framework)
 - MySQL
 - Visual Studio
-- MySQL Connector
 
 ---
 
-## 🚀 Cara Menjalankan
-
-1. Clone repository
-
-```bash
-git clone https://github.com/rtwone/RSUD-SYSTEM.git
-```
-
-2. Buka
-
-```
-RSUD-SYSTEM.sln
-```
-
-menggunakan Visual Studio.
-
-3. Restore NuGet Package jika diperlukan.
-
-4. Import database MySQL.
-
-5. Sesuaikan konfigurasi database pada file `App.config`.
-
----
-
-## 📁 Struktur Project
+# 📂 Struktur Project
 
 ```
 RSUD-SYSTEM
@@ -165,21 +164,48 @@ RSUD-SYSTEM
 │   ├── pembayaran.png
 │   └── laporan.png
 │
+├── packages/
+├── koneksi.cs/
 ├── RSUD-SYSTEM.sln
-├── README.md
-└── Source Code
+└── README.md
 ```
 
 ---
 
-## 👨‍💻 Developer
+# 🚀 Cara Menjalankan
 
-**Irfan Hariyanto**
+1. Clone repository
 
-GitHub : https://github.com/rtwone
+```bash
+git clone https://github.com/rtwone/RSUD-SYSTEM.git
+```
+
+2. Buka file
+
+```
+RSUD-SYSTEM.sln
+```
+
+menggunakan Visual Studio.
+
+3. Restore NuGet Package jika diperlukan.
+
+4. Import database MySQL.
+
+5. Jalankan project.
 
 ---
 
-## ⭐ Jika project ini bermanfaat
+# 👨‍💻 Developer
 
-Jangan lupa berikan ⭐ pada repository ini.
+**Irfan Hariyanto**
+
+GitHub: https://github.com/rtwone
+
+---
+
+<div align="center">
+
+⭐ Jangan lupa berikan Star jika repository ini bermanfaat.
+
+</div>
