@@ -162,11 +162,9 @@ Menyediakan berbagai laporan administrasi rumah sakit.
 
 **Fitur**
 
-- Laporan Pasien
-- Laporan Dokter
-- Laporan Pendaftaran
-- Laporan Rekam Medis
-- Laporan Pembayaran
+- Laporan Transaksi
+- Laporan Kunjungan
+- Ringkasan
 
 📷
 
@@ -281,7 +279,7 @@ RSUD-SYSTEM
 │
 ├── RSUD-SYSTEM/
 ├── RSUD-SYSTEM.sln
-└── README.md
+├── README.md
 └── LICENSE.md
 ```
 
