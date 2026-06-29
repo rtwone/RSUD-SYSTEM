@@ -12,9 +12,9 @@ Aplikasi desktop berbasis **C# Windows Forms** yang dirancang untuk membantu pro
 ![Database](https://img.shields.io/badge/Database-MySQL-orange)
 ![IDE](https://img.shields.io/badge/IDE-Visual_Studio-5C2D91)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/rtwone/RSUD-SYSTEM)
-![GitHub repo size](https://img.shields.io/github/repo-size/rtwone/RSUD-SYSTEM)
-![GitHub stars](https://img.shields.io/github/stars/rtwone/RSUD-SYSTEM?style=social)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/rtwone/RSUD-SYSTEM)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/rtwone/RSUD-SYSTEM)
+![GitHub Stars](https://img.shields.io/github/stars/rtwone/RSUD-SYSTEM?style=social)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </div>
