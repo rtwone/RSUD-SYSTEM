@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD252C4E-68D4-4DFE-B3D7-8F9AC74E317B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSUD_SYSTEM</RootNamespace>
+    <AssemblyName>RSUD-SYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>C:\Users\ASUS\Downloads\Krypton-master\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.7.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPopupDetailKunjungan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopupDetailKunjungan.Designer.cs">
+      <DependentUpon>FormPopupDetailKunjungan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahEdit.Designer.cs">
+      <DependentUpon>FormTambahEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuDashboard.Designer.cs">
+      <DependentUpon>menuDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuDataMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuDataMaster.Designer.cs">
+      <DependentUpon>menuDataMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuDiagnosa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuDiagnosa.Designer.cs">
+      <DependentUpon>menuDiagnosa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuLaporan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuLaporan.Designer.cs">
+      <DependentUpon>menuLaporan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuLogin.Designer.cs">
+      <DependentUpon>menuLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPembayaran.Designer.cs">
+      <DependentUpon>menuPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuPendaftaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPendaftaran.Designer.cs">
+      <DependentUpon>menuPendaftaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuRawatInap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuRawatInap.Designer.cs">
+      <DependentUpon>menuRawatInap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuRekamMedis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuRekamMedis.Designer.cs">
+      <DependentUpon>menuRekamMedis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pilihKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilihKamar.Designer.cs">
+      <DependentUpon>pilihKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuUtama.Designer.cs">
+      <DependentUpon>menuUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Koneksi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPopupDetailKunjungan.resx">
+      <DependentUpon>FormPopupDetailKunjungan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahEdit.resx">
+      <DependentUpon>FormTambahEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuDashboard.resx">
+      <DependentUpon>menuDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuDataMaster.resx">
+      <DependentUpon>menuDataMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuDiagnosa.resx">
+      <DependentUpon>menuDiagnosa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuLaporan.resx">
+      <DependentUpon>menuLaporan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuLogin.resx">
+      <DependentUpon>menuLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuPembayaran.resx">
+      <DependentUpon>menuPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuPendaftaran.resx">
+      <DependentUpon>menuPendaftaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuRawatInap.resx">
+      <DependentUpon>menuRawatInap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuRekamMedis.resx">
+      <DependentUpon>menuRekamMedis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilihKamar.resx">
+      <DependentUpon>pilihKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuUtama.resx">
+      <DependentUpon>menuUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
