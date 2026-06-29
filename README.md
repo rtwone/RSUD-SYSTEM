@@ -274,7 +274,6 @@ RSUD-SYSTEM
 ├── database/
 │   └── rsud_db.sql
 │
-├── koneksi.cs/
 ├── RSUD-SYSTEM/
 ├── RSUD-SYSTEM.sln
 └── README.md
