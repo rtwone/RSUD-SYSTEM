@@ -2,197 +2,242 @@
 
 # 🏥 RSUD-SYSTEM
 
-### Sistem Informasi Rumah Sakit (RSUD)
+### Hospital Information System (HIS)
 
-Aplikasi desktop berbasis **C# Windows Forms** untuk membantu pengelolaan administrasi rumah sakit, mulai dari data master, pendaftaran pasien, rekam medis, hingga pembayaran.
+A desktop-based Hospital Information System developed using **C# Windows Forms** and **MySQL** to simplify hospital administration processes, including patient registration, medical records, inpatient management, payments, and reporting.
 
-![Platform](https://img.shields.io/badge/Platform-Windows-blue)
-![Language](https://img.shields.io/badge/Language-C%23-purple)
-![Framework](https://img.shields.io/badge/.NET-Windows%20Forms-blueviolet)
-![Database](https://img.shields.io/badge/Database-MySQL-orange)
+![C#](https://img.shields.io/badge/C%23-Windows%20Forms-blue)
+![Framework](https://img.shields.io/badge/.NET_Framework-4.x-purple)
+![Database](https://img.shields.io/badge/MySQL-Database-orange)
+![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-blueviolet)
 
 </div>
 
 ---
 
-# 📷 Tampilan Aplikasi
+# 📖 About
 
-## Menu Utama
+RSUD-SYSTEM is a desktop application designed to assist hospital staff in managing patient administration efficiently.
 
-<p align="center">
-<img src="preview/dashboard.png" width="900">
-</p>
+The application is built using **Windows Forms (.NET Framework)** and uses **MySQL** as its database management system.
 
 ---
 
-# ✨ Fitur
+# ✨ Features
 
-| Menu | Deskripsi |
-|------|-----------|
-| 📊 Dashboard | Halaman utama aplikasi |
-| 🗂️ Data Master | Mengelola seluruh data master rumah sakit |
-| 📝 Pendaftaran | Registrasi pasien |
-| 🩺 Diagnosa | Input hasil pemeriksaan |
-| 📄 Rekam Medis | Riwayat kesehatan pasien |
-| 🛏️ Rawat Inap | Manajemen rawat inap |
-| 💳 Pembayaran | Transaksi pembayaran pasien |
-| 📈 Laporan | Cetak berbagai laporan |
+## 🔐 Authentication
+
+- Login System
+- User Session
+- Greeting Based on Time
 
 ---
-
-# 🖼 Preview Setiap Menu
 
 ## 📊 Dashboard
 
-<img src="preview/dashboard.png">
+- Main Navigation
+- Quick Access Menu
+- User Information
+
+📷
+
+> `preview/dashboard.png`
 
 ---
 
-## 🗂️ Data Master
+## 🗂 Data Master
 
-<img src="preview/data-master.png">
+Manage hospital master data such as:
 
-**Fitur**
+- Patients
+- Doctors
+- Rooms
+- Medicines
+- Medical Staff
+- Other Master Data
 
-- Data Pasien
-- Data Dokter
-- Data Poli
-- Data Obat
-- Data Kamar
-- Data Petugas
+📷
 
----
-
-## 📝 Pendaftaran
-
-<img src="preview/pendaftaran.png">
-
-**Fitur**
-
-- Registrasi Pasien
-- Data Pendaftaran
-- Pencarian Pasien
-- Cetak Bukti Pendaftaran
+> `preview/data-master.png`
 
 ---
 
-## 🩺 Diagnosa
+## 📝 Patient Registration
 
-<img src="preview/diagnosa.png">
+- Register New Patient
+- Outpatient Registration
+- Search Patient
+- Registration History
 
-**Fitur**
+📷
 
-- Pemeriksaan Pasien
-- Input Diagnosa
-- Resep Obat
-- Tindakan Medis
-
----
-
-## 📄 Rekam Medis
-
-<img src="preview/rekam-medis.png">
-
-**Fitur**
-
-- Riwayat Pemeriksaan
-- Riwayat Diagnosa
-- Riwayat Obat
-- Riwayat Rawat Inap
+> `preview/pendaftaran.png`
 
 ---
 
-## 🛏️ Rawat Inap
+## 🩺 Diagnosis
 
-<img src="preview/rawat-inap.png">
+- Patient Examination
+- Diagnosis Input
+- Medical Treatment
+- Prescription
 
-**Fitur**
+📷
 
-- Data Kamar
-- Check In
-- Check Out
-- Monitoring Pasien
-
----
-
-## 💳 Pembayaran
-
-<img src="preview/pembayaran.png">
-
-**Fitur**
-
-- Tagihan Pasien
-- Pembayaran
-- Cetak Kwitansi
+> `preview/diagnosa.png`
 
 ---
 
-## 📈 Laporan
+## 📄 Medical Record
 
-<img src="preview/laporan.png">
+- Patient History
+- Diagnosis History
+- Treatment History
+- Medical Record Management
 
-**Fitur**
+📷
 
-- Laporan Pasien
-- Laporan Dokter
-- Laporan Rekam Medis
-- Laporan Pembayaran
-
----
-
-# 🛠️ Teknologi
-
-- C#
-- Windows Forms (.NET Framework)
-- MySQL
-- Visual Studio
+> `preview/rekam-medis.png`
 
 ---
 
-# 📂 Struktur Project
+## 🛏 Inpatient
+
+- Room Selection
+- Room Availability
+- Check-In
+- Check-Out
+
+📷
+
+> `preview/rawat-inap.png`
+
+---
+
+## 💳 Payment
+
+- Billing
+- Payment Processing
+- Receipt
+
+📷
+
+> `preview/pembayaran.png`
+
+---
+
+## 📈 Reports
+
+Generate reports including:
+
+- Patient Report
+- Medical Record Report
+- Payment Report
+- Registration Report
+
+📷
+
+> `preview/laporan.png`
+
+---
+
+# 🖼 Application Preview
+
+| Menu | Screenshot |
+|------|------------|
+| Dashboard | `preview/dashboard.png` |
+| Data Master | `preview/data-master.png` |
+| Registration | `preview/pendaftaran.png` |
+| Diagnosis | `preview/diagnosa.png` |
+| Medical Record | `preview/rekam-medis.png` |
+| Inpatient | `preview/rawat-inap.png` |
+| Payment | `preview/pembayaran.png` |
+| Reports | `preview/laporan.png` |
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Description |
+|------------|-------------|
+| Language | C# |
+| Framework | Windows Forms (.NET Framework) |
+| IDE | Visual Studio |
+| Database | MySQL |
+| Connector | MySql.Data 6.7.9 |
+
+---
+
+# 📂 Project Structure
 
 ```
 RSUD-SYSTEM
 │
-├── preview/
-│   ├── dashboard.png
-│   ├── data-master.png
-│   ├── pendaftaran.png
-│   ├── diagnosa.png
-│   ├── rekam-medis.png
-│   ├── rawat-inap.png
-│   ├── pembayaran.png
-│   └── laporan.png
+├── RSUD-SYSTEM.sln
+│
+├── RSUD-SYSTEM/
+│   ├── menuLogin
+│   ├── menuUtama
+│   ├── menuDashboard
+│   ├── menuDataMaster
+│   ├── menuPendaftaran
+│   ├── menuDiagnosa
+│   ├── menuRekamMedis
+│   ├── menuRawatInap
+│   ├── menuPembayaran
+│   ├── menuLaporan
+│   ├── FormTambahEdit
+│   ├── FormPopupDetailKunjungan
+│   ├── pilihKamar
+│   └── Koneksi.cs
 │
 ├── packages/
-├── koneksi.cs/
-├── RSUD-SYSTEM.sln
 └── README.md
 ```
 
 ---
 
-# 🚀 Cara Menjalankan
+# 🚀 Getting Started
 
-1. Clone repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/rtwone/RSUD-SYSTEM.git
 ```
 
-2. Buka file
+### Open Project
+
+Open
 
 ```
 RSUD-SYSTEM.sln
 ```
 
-menggunakan Visual Studio.
+using **Visual Studio**.
 
-3. Restore NuGet Package jika diperlukan.
+### Database
 
-4. Import database MySQL.
+Import your MySQL database, then configure the database connection inside:
 
-5. Jalankan project.
+```
+Koneksi.cs
+```
+
+or
+
+```
+App.config
+```
+
+depending on your local setup.
+
+---
+
+# 📌 Notes
+
+- Developed for educational purposes.
+- Built with Windows Forms (.NET Framework).
+- Requires MySQL Server.
 
 ---
 
@@ -200,12 +245,14 @@ menggunakan Visual Studio.
 
 **Irfan Hariyanto**
 
-GitHub: https://github.com/rtwone
+GitHub
+
+https://github.com/rtwone
 
 ---
 
 <div align="center">
 
-⭐ Jangan lupa berikan Star jika repository ini bermanfaat.
+⭐ If you find this project useful, don't forget to leave a Star!
 
 </div>
