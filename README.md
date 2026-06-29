@@ -359,7 +359,7 @@ Build project, kemudian jalankan menggunakan Visual Studio.
 
 Project ini dilisensikan di bawah **MIT License**.
 
-Silakan lihat file [LICENSE](LICENSE.md) untuk informasi lebih lanjut.
+Silakan baca file [LICENSE.md](https://github.com/rtwone/RSUD-SYSTEM?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
 
 <div align="center">
 
